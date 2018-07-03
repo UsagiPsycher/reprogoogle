@@ -50,9 +50,7 @@
 .searchbox{
 	  margin-top: 25px;
     height:50px;
-    font-size:14pt;
-    box-shadow: 2px 2px 0px grey;
-
+    font-size:9pt;
 
 }
 #Langues{
@@ -84,13 +82,13 @@
 .footer {
   background-color: #f2f2f2;
   font-family: arial,sans-serif;
-  position: relative;
+  position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   border-top: 1px solid #c6c6c6;
   font-size: 12px;
-  height: 30px;
+  height: 80px;
 }
 
 .footer div{
@@ -99,14 +97,25 @@
   margin: 10px;
 }
 
+.lr{
+    border-top: 1px solid #c6c6c6;
+}
+
 
 
 .left {
+  font-family: arial,sans-serif;
+  font-size:9pt;
+  color: black  ;
+  text-decoration: none;
+  color: black;
   float: left;
   margin: 15px;
 }
 
 .right {
+  text-decoration: none;
+  color: black;
   float: right;
   margin: 15px;
 }
@@ -177,16 +186,21 @@
 		
 
 <div class="footer">
-
-    <div class="left">
-       <a href="#a" > Publicité </a>
-       <a href="#a" > Entreprise </a>
-       <a href="#a" > A propos </a>
+    <div class="mada">
+      Madagascar
     </div>
-    <div class="right">
-       <a href="#a" > Confidentialité </a>
-       <a href="#a" > Conditions </a>
-       <a href="#a" > Paramètres </a>
+    <div class="lr">
+          <div class="left">
+             <a href="#a" style="padding-right: 10px;" > Publicité </a>
+             <a href="#a" style="padding-left: 10px; padding-right: 10px;"> Entreprise </a>
+             <a href="#a" style="padding-left: 10px; padding-right: 10px;"> A propos </a>
+          </div>
+
+          <div class="right">
+             <a href="#a" style="padding-left: 10px; padding-right: 10px;"> Confidentialité </a>
+             <a href="#a" style="padding-left: 10px; padding-right: 10px;"> Conditions </a>
+             <a href="#a" style="padding-left: 10px;"> Paramètres </a>
+          </div>
     </div>
 
 
